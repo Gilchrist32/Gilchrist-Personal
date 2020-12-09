@@ -498,6 +498,10 @@ footer{
     align-items: center;
     position: relative;
 }
+.footer__title{
+    margin-left: 130px;
+}
+
 footer p{
     font-family: 'Poppins', sans-serif;  
 }
@@ -509,10 +513,11 @@ footer p:nth-child(1){
     margin-bottom: 20px;
 }
 footer p:nth-child(2){
-    font-size: 16px;
+    font-size: 15px;
     color: #7e7d7d;
     width: 600px;
     text-align: center;
+    margin-right: 20px;
 }
 .social-icons a{
     width: 40px;
@@ -782,6 +787,9 @@ footer p:nth-child(2){
         width: 360px;
         margin-left: var(--mb-1);
 
+    }
+    .footer__title{
+        margin-left: 450px;
     }
 }
 
