@@ -12,7 +12,9 @@
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
               <!--using FontAwesome-->
               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+              
+              <!--AOS-->
+              <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <title>GC Site</title>
     </head>
@@ -188,7 +190,7 @@
                     </div>
                     <div class="row">
                         <div class="team-item">
-                            <div class="item">
+                            <div class="item" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
                                 <img src="team/josh.jpg" alt="team">
                                 <div class="inner">
                                     <div class="info_1">
@@ -203,7 +205,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item">
+                            <div class="item" data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
                                 <img src="team/veo.jpg" alt="team">
                                 <div class="inner">
                                     <div class="info_2">
@@ -218,7 +220,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item">
+                            <div class="item" data-aos="fade-left" data-aos-duration="1500" data-aos-once="false">
                                 <img src="team/gil.jpg" alt="team">
                                 <div class="inner">
                                     <div class="info_3">
@@ -286,6 +288,16 @@
         <script src="js/main.js"></script>
 
         <script type="text/javascript" src="js/JQuery.js"></script>
+        </script>
+
+
+        <!--AOS SCRIPT-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              duration: 3000,
+              once: true,
+          });
         </script>
         
     </body>

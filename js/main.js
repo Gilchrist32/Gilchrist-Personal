@@ -51,7 +51,7 @@ sr.reveal('.services__img',{interval: 200})
 sr.reveal('.service__img',{interval: 400})
 
 /*SCROLL TEAM*/
-sr.reveal('.team-item',{interval: 200})
+////sr.reveal('.team-item',{interval: 200})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle',{interval: 200})
